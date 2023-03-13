@@ -15,7 +15,7 @@ msg1 = ""
 def post(email,password):
     option = Options()
     option.add_argument('--disable-notifications')        
-    openai.api_key="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"
+    openai.api_key="sk-LenK2fKN4UeeevBPT3BlbkFJ3SjTZeMD1Pc5psBoP3rD"
     driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), chrome_options= option)     
     user_email = email
     user_password = password
